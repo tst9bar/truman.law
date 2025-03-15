@@ -293,11 +293,11 @@ img {
     line-height: 1.3;
     vertical-align: baseline;
     position: relative;
-    color: #ff7a29;
 }
 
 .sidenote-number {
     counter-increment: sidenote-counter;
+    color: #ff7a29;
 }
 
 .sidenote-number:after,
