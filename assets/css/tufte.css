@@ -297,7 +297,6 @@ img {
 
 .sidenote-number {
     counter-increment: sidenote-counter;
-    color: #ff7a29;
 }
 
 .sidenote-number:after,
@@ -467,6 +466,10 @@ label.margin-toggle:not(.sidenote-number) {
     .marginnote {
         display: none;
     }
+    
+    .sidenote-number {
+    color: #ff7a29;
+}
 
     .margin-toggle:checked + .sidenote,
     .margin-toggle:checked + .marginnote {
