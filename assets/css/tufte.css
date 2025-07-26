@@ -419,6 +419,8 @@ label.margin-toggle:not(.sidenote-number) {
         width: 88%;
         padding-left: 6%;
         padding-right: 6%;
+        width: 90%;
+        padding-left: 4%;
     }
 
     hr,
