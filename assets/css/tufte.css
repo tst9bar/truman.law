@@ -421,7 +421,8 @@ nav>h3{display:flex;align-items:center;margin-top:2em;margin-bottom:.5em}
 h3 span{font-size:calc(var(--fs)*var(--sm));line-height:1rem}
 h3 span:last-child{margin-left:auto}
 nav a:link {
-    background: none
+    background: none;
+    margin-bottom: 0.4rem
     }
 nav>a{transition:color .3s ease-out;display:grid;grid-template-columns:auto 1fr auto;grid-gap:.3rem}
 nav>a:hover{color:var(--tm)}
