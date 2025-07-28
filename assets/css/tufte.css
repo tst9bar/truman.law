@@ -423,7 +423,7 @@ h3 span:last-child{margin-left:auto}
 nav>a{transition:color .3s ease-out;display:grid;grid-template-columns:auto 1fr auto;grid-gap:.3rem}
 nav>a:hover{color:var(--tm)}
 nav a p{text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:100%}
-nav hr{margin:0 0 .3rem;align-self:end;height:1px;border:0;border-bottom:1px dotted var(--t);opacity:.25;min-width:1rem;width:100%}
+nav hr{margin:0 0 .3rem;align-self:end;height:1px;border:0;border-bottom:2px dotted var(--t);opacity:.25;min-width:1rem;width:100%}
 
 @media (max-width: 760px) {
     body {
@@ -437,7 +437,8 @@ nav hr{margin:0 0 .3rem;align-self:end;height:1px;border:0;border-bottom:1px dot
     hr,
     section > p,
     section > footer,
-    section > table {
+    section > table,
+    nav {
         width: 100%;
     }
 
