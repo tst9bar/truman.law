@@ -438,9 +438,12 @@ nav hr{margin:0 0 .3rem;align-self:end;height:1px;border:0;border-bottom:2px dot
     section > p,
     section > footer,
     section > table,
-    nav {
+    nav,
+    nav > p {
         width: 100%;
     }
+    
+    nav {max-width: 100%}
 
     pre > code {
         width: 97%;
