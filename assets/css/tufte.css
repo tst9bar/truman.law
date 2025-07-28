@@ -414,6 +414,17 @@ label.margin-toggle:not(.sidenote-number) {
     height: 100%;
 }
 
+nav{max-width:55%}
+nav:last-child{margin-bottom:7rem}
+nav h2{margin-bottom:1em}
+nav>h3{display:flex;align-items:center;margin-top:2em;margin-bottom:.5em}
+h3 span{font-size:calc(var(--fs)*var(--sm));line-height:1rem}
+h3 span:last-child{margin-left:auto}
+nav>a{transition:color .3s ease-out;display:grid;grid-template-columns:auto 1fr auto;grid-gap:.3rem}
+nav>a:hover{color:var(--tm)}
+nav a p{text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:100%}
+nav hr{margin:0 0 .3rem;align-self:end;height:1px;border:0;border-bottom:1px dotted var(--t);opacity:.25;min-width:1rem;width:100%}
+
 @media (max-width: 760px) {
     body {
         width: 88%;
