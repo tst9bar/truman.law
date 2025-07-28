@@ -81,7 +81,7 @@ h1 {
 }
 
 h2 {
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: 400;
     margin-top: 2.1rem;
     margin-bottom: 1.4rem;
@@ -443,7 +443,20 @@ nav span {
         width: 90%;
         padding-left: 4%;
     }
+    
+    h1 {
+        font-size: 3rem;
+    }
 
+    h2 {
+        font-size: 2.2rem;
+        line-height: 1;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+ 
     hr,
     section > p,
     section > footer,
