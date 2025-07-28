@@ -423,7 +423,7 @@ h3 span:last-child{margin-left:auto}
 nav a:link {
     background: none;
     margin-bottom: 0.4rem
-    }
+}
 nav>a{transition:color .3s ease-out;display:grid;grid-template-columns:auto 1fr auto;grid-gap:.3rem}
 nav>a:hover{color:var(--tm)}
 nav a p{text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:100%;
@@ -433,7 +433,7 @@ nav hr{margin:0 0 .5rem;align-self:end;height:1px;border:0;border-bottom:2px dot
 nav span {
     font-size: 1.3rem; /* default 1 rem */
     line-height: 2rem
-    }
+}
     
 @media (max-width: 760px) {
     body {
@@ -450,7 +450,6 @@ nav span {
 
     h2 {
         font-size: 2.2rem;
-        line-height: 1;
     }
 
     p {
@@ -472,6 +471,10 @@ nav span {
         width: 97%;
     }
 
+    code, pre > code {
+        font-size: 1.2rem
+    } 
+    
     section > dl,
     section > ol,
     section > ul {
@@ -508,8 +511,8 @@ nav span {
     }
     
     .sidenote-number {
-    color: #ff7a29;
-}
+        color: #ff7a29;
+    }
 
     .margin-toggle:checked + .sidenote,
     .margin-toggle:checked + .marginnote {
