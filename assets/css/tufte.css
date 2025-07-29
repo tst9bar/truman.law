@@ -51,6 +51,7 @@
 html {
     font-size: 15px;
 /*     font-size: 62.5%; */
+    height: 100%
 }
 
 body {
@@ -63,8 +64,15 @@ body {
     color: #111;
     max-width: 1400px;
     counter-reset: sidenote-counter;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
+body.home-push {
+    flex: 1 0 auto;
+}
+ 
 /*@media (prefers-color-scheme: dark) {
     body {
         background-color: #151515;
@@ -438,7 +446,7 @@ nav span {
     padding-top: 0.6rem
 }
 
-footer.home {
+footer.home-footer {
     width: 55%;
     display: flex;
     flex-wrap:wrap;
@@ -447,17 +455,18 @@ footer.home {
     margin-top: 6rem;
     margin-bottom: 2rem;
     text-align: center;
+    flex-shrink:0
 }
 
-footer.home span {
+footer.home-footer span {
     flex-basis: 100%;
 }
 
-footer.home a:link {
+footer.home-footer a:link {
     background: none
 }
 
-footer.home a:link {
+footer.home-footer a:link {
     background: none
 }
 
