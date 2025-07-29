@@ -433,7 +433,7 @@ nav a p{text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowra
 }
 nav hr{margin:0 0 .5rem;align-self:end;height:1px;border:0;border-bottom:2px dotted #111;opacity:.5;min-width:2rem;width:100%}
 nav span {
-    font-size: 1.3rem; /* default 1 rem */
+    font-size: 1.2rem; /* default 1 rem */
     line-height: 2rem
 }
 
@@ -454,7 +454,11 @@ footer.home span {
 
 footer.home a:link {
     background: none
-} 
+}
+
+footer.home a:link {
+    background: none
+}
 
 @media (max-width: 760px) {
     body {
@@ -488,6 +492,10 @@ footer.home a:link {
     }
     
     nav {max-width: 100%}
+    
+    nav span {
+        font-size: 1.3rem
+    } 
 
     pre > code {
         width: 97%;
