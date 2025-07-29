@@ -66,7 +66,8 @@ body {
     color: #111;
     max-width: 1400px;
     counter-reset: sidenote-counter;
-    height: 100%;
+    /* height: 100%; for home-push */
+    min-height: 100%;
     display: flex;
     flex-direction: column;
 }
