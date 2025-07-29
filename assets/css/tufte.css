@@ -452,6 +452,10 @@ footer.home span {
     flex-basis: 100%;
 }
 
+footer.home a:link {
+    background: none
+} 
+
 @media (max-width: 760px) {
     body {
         width: 88%;
