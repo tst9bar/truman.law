@@ -63,7 +63,6 @@ body {
     color: #111;
     max-width: 1400px;
     counter-reset: sidenote-counter;
-    margin-bottom: 4rem;
 }
 
 /*@media (prefers-color-scheme: dark) {
@@ -444,7 +443,8 @@ footer.home {
     flex-wrap:wrap;
     justify-content: center;
     gap: 0.3rem;
-    margin-top: 8rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
