@@ -486,7 +486,11 @@ footer.home-footer a:link {
     h2 {
         font-size: 2.2rem;
     }
-
+    
+    article {
+        padding: 0
+    }
+     
     p {
         font-size: 1.5rem;
         margin-bottom: 2.0rem;
