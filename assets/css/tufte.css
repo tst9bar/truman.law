@@ -434,7 +434,15 @@ nav span {
     font-size: 1.3rem; /* default 1 rem */
     line-height: 2rem
 }
-    
+
+footer.home {
+    display: flex;
+    justify-content: center;
+    gay: 0.3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+ 
 @media (max-width: 760px) {
     body {
         width: 88%;
