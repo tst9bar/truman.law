@@ -434,6 +434,10 @@ nav h2{margin-bottom:1em}
 nav>h3{display:flex;align-items:center;margin-top:2em;margin-bottom:.5em}
 h3 span{font-size:calc(var(--fs)*var(--sm));line-height:1rem}
 h3 span:last-child{margin-left:auto}
+nav p.subtitle {
+    font-style: italic;
+    font-size: 1.3rem;
+    }
 nav a:link {
     background: none;
     margin-bottom: 0.4rem
