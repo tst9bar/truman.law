@@ -438,12 +438,17 @@ nav span {
 footer.home {
     width: 55%;
     display: flex;
+    flex-wrap:wrap;
     justify-content: center;
     gap: 0.3rem;
     margin-top: 4rem;
     text-align: center;
 }
- 
+
+footer.home span {
+    flex-basis: 100%;
+}
+
 @media (max-width: 760px) {
     body {
         width: 88%;
