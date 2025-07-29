@@ -63,6 +63,7 @@ body {
     color: #111;
     max-width: 1400px;
     counter-reset: sidenote-counter;
+    margin-bottom: 4rem;
 }
 
 /*@media (prefers-color-scheme: dark) {
@@ -246,7 +247,9 @@ a:visited {
     text-shadow: unset;
 }
 
-a:link, .tufte-underline, .hover-tufte-underline:hover {
+a:link, 
+.tufte-underline, 
+.hover-tufte-underline:hover {
     text-decoration: none;
     background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(currentColor, currentColor);
     background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(currentColor, currentColor);
@@ -441,7 +444,7 @@ footer.home {
     flex-wrap:wrap;
     justify-content: center;
     gap: 0.3rem;
-    margin-top: 4rem;
+    margin-top: 8rem;
     text-align: center;
 }
 
