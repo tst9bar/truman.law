@@ -71,7 +71,7 @@ body {
     flex-direction: column;
 }
 
-body.home-push {
+.home-push {
     flex: 1 0 auto;
 }
  
