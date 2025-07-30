@@ -515,7 +515,8 @@ footer.home-footer a:link {
     }
     
     article {
-        padding: 0
+        padding: 0;
+        padding-left: 4%;
     }
      
     p {
