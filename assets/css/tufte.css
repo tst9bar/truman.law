@@ -526,7 +526,11 @@ footer.home-footer a:link {
         font-size: 1.5rem;
         margin-bottom: 2.0rem;
     }
- 
+    
+    h1 > p.subtitle {
+        font-size: 1.8 rem;
+    }
+     
     hr,
     section > p,
     section > footer,
