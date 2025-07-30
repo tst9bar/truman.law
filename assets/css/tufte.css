@@ -91,6 +91,10 @@ h1 {
     line-height: 1;
 }
 
+.home-latest h1 {
+    font-size: 3.0rem;
+} 
+
 h2 {
     /* font-style: italic; */
     font-weight: 400;
