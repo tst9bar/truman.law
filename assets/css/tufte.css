@@ -516,9 +516,12 @@ footer.home-footer a:link {
     
     article {
         padding: 0;
-        padding-left: 4%;
     }
-     
+    
+    article.home-latest {
+        padding-left: 9%
+    }
+    
     p {
         font-size: 1.5rem;
         margin-bottom: 2.0rem;
