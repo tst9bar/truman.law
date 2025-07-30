@@ -132,6 +132,15 @@ p.subtitle {
     line-height: 1;
 }
 
+p.mono {
+    font-style: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    display: block;
+    line-height: 1;
+}
+
 .numeral {
     font-family: et-book-roman;
 }
