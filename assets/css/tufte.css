@@ -434,16 +434,17 @@ nav{max-width:55%}
 nav:last-child{margin-bottom:7rem}
 nav h2{
     margin-bottom:1em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.7em;
+    font-size: 2.0rem;
     }
 nav>h3{display:flex;align-items:center;margin-top:2em;margin-bottom:.5em}
 h3 span{font-size:calc(var(--fs)*var(--sm));line-height:1rem}
 h3 span:last-child{margin-left:auto}
 nav p.subtitle {
-    font-style: italic;
     font-size: 1.3rem;
     line-height: 1.5;
     margin-top: 0;
+    margin-bottom: 0.8em;
     }
 nav a:link {
     background: none;
