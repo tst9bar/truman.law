@@ -428,15 +428,22 @@ label.margin-toggle:not(.sidenote-number) {
     height: 100%;
 }
 
+/* Modified index from https://manuelmoreale.com */
+
 nav{max-width:55%}
 nav:last-child{margin-bottom:7rem}
-nav h2{margin-bottom:1em}
+nav h2{
+    margin-bottom:1em;
+    margin-bottom: 0.5em;
+    }
 nav>h3{display:flex;align-items:center;margin-top:2em;margin-bottom:.5em}
 h3 span{font-size:calc(var(--fs)*var(--sm));line-height:1rem}
 h3 span:last-child{margin-left:auto}
 nav p.subtitle {
     font-style: italic;
     font-size: 1.3rem;
+    line-height: 1.5;
+    margin-top: 0;
     }
 nav a:link {
     background: none;
@@ -444,8 +451,14 @@ nav a:link {
 }
 nav>a{transition:color .3s ease-out;display:grid;grid-template-columns:auto 1fr auto;grid-gap:.3rem}
 nav>a:hover{color:var(--tm)}
-nav a p{text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:100%;
-    margin: 0
+nav a p{
+    text-align:left;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    width:100%;
+    margin: 0;
+    font-size:1.3rem
 }
 nav hr{margin:0 0 .5rem;align-self:end;height:1px;border:0;border-bottom:2px dotted #111;opacity:.5;min-width:2rem;width:100%}
 nav span {
@@ -515,6 +528,14 @@ footer.home-footer a:link {
     
     nav {max-width: 100%}
     
+    nav p.subtitle {
+        font-size: 1.35rem;
+    }
+    
+    nav a p{
+        font-size: 1.35rem
+    }
+    
     nav span {
         font-size: 1.3rem
     } 
@@ -555,6 +576,7 @@ footer.home-footer a:link {
 
     label.margin-toggle:not(.sidenote-number) {
         display: inline;
+        font-style: normal;
     }
 
     .sidenote,
@@ -566,7 +588,7 @@ footer.home-footer a:link {
         color: #ff7a29;
     }
 
-    .margin-toggle:checked + .sidenote,
+    .margin-toggle:checked + .sidenote, 
     .margin-toggle:checked + .marginnote {
         display: block;
         float: left;
