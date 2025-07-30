@@ -133,7 +133,7 @@ p.subtitle {
 }
 
 p.mono {
-    font-style: normal;
+    font-family: "Courier Prime", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 1.3rem;
