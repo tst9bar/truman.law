@@ -488,8 +488,8 @@ footer.home-footer {
     flex-wrap:wrap;
     justify-content: center;
     gap: 0.5rem;
-    margin-top: 6rem;
-    margin-bottom: 2rem;
+    margin-top: 9rem;
+    margin-bottom: 3rem;
     text-align: center;
     flex-shrink:0
 }
@@ -640,5 +640,7 @@ footer.home-footer a:link {
     
     footer.home-footer {
         width: 100%
+        margin-top: 9rem;
+        margin-bottom: 3rem;
     } 
 }
