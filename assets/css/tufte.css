@@ -598,8 +598,10 @@ footer.home-footer a:link {
     }
 
     label.margin-toggle:not(.sidenote-number) {
-        display: inline;
+        display: inline-block;
         font-style: normal;
+        font-size: 1.45rem;
+        line-height: 2rem;
     }
 
     .sidenote,
