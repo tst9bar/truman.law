@@ -132,7 +132,7 @@ p.subtitle {
     line-height: 1;
 }
 
-p.mono {
+p.mono { /* do not include .subtitle */
     font-family: "Courier Prime", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     margin-top: 1rem;
     margin-bottom: 1rem;
