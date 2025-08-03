@@ -533,7 +533,7 @@ footer.home-footer a:link {
         padding-left: 9%
     }
     
-    section {
+    .now-home {
         padding: 0
     }
      
@@ -546,9 +546,9 @@ footer.home-footer a:link {
         font-size: 1.65rem;
     }
     
-    article.now p {
-        font-size: 1.4 rem;
-    } 
+    article.now-nav p {
+        font-size: 1.45rem;
+    }
     
     hr,
     section > p,
