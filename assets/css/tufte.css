@@ -533,6 +533,10 @@ footer.home-footer a:link {
         padding-left: 9%
     }
     
+    section {
+        padding: 0
+    }
+     
     p {
         font-size: 1.5rem;
         margin-bottom: 2.0rem;
@@ -541,7 +545,11 @@ footer.home-footer a:link {
     h1 > p.subtitle {
         font-size: 1.65rem;
     }
-     
+    
+    article.now p {
+        font-size: 1.4 rem;
+    } 
+    
     hr,
     section > p,
     section > footer,
