@@ -508,6 +508,7 @@ footer.home-footer a:link {
     background: none
 }
 
+/* -------- For mobile */
 @media (max-width: 760px) {
     body {
         width: 88%;
@@ -522,7 +523,7 @@ footer.home-footer a:link {
     }
 
     h2 {
-        font-size: 2.2rem;
+        font-size: 2.1rem;
     }
     
     article {
