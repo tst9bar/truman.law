@@ -512,8 +512,8 @@ footer.home-footer a:link {
     body {
         width: 88%;
         padding-left: 6%;
-        padding-right: 6%;
-        width: 90%;
+        padding-right: 5%;
+        width: 91%;
         padding-left: 4%;
     }
     
@@ -542,7 +542,7 @@ footer.home-footer a:link {
         margin-bottom: 2.0rem;
     }
     
-    h1 > p.subtitle {
+    h1 > p.subtitle { /* seems not yet */
         font-size: 1.65rem;
     }
     
