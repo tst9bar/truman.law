@@ -643,6 +643,8 @@ footer.home-footer a:link {
         clear: both;
         width: 95%;
         margin: 1rem 2.5%;
+        width: 91%;
+        margin: 1rem 4% 1rem 5%;
         vertical-align: baseline;
         position: relative;
     }
