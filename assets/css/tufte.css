@@ -628,6 +628,12 @@ footer.home-footer a:link {
     .sidenote-number {
         color: #ff7a29;
     }
+    
+    p:has(span.sidenote),
+    p:has(span.marginnote) {
+      overflow: auto;
+      color: red;
+    }
 
     .margin-toggle:checked + .sidenote, 
     .margin-toggle:checked + .marginnote {
@@ -635,7 +641,7 @@ footer.home-footer a:link {
         float: left;
         left: 1rem;
         clear: both;
-        width: 95%;
+        width: 50%;
         margin: 1rem 2.5%;
         vertical-align: baseline;
         position: relative;
