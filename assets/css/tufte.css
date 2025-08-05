@@ -631,7 +631,7 @@ footer.home-footer a:link {
     
     p:has(span.sidenote),
     p:has(span.marginnote) {
-      /*overflow: auto;*/
+      overflow: auto;
       color: red;
     }
 
