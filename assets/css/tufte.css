@@ -632,7 +632,6 @@ footer.home-footer a:link {
     p:has(span.sidenote),
     p:has(span.marginnote) {
       overflow: auto;
-      color: red;
     }
 
     .margin-toggle:checked + .sidenote, 
@@ -646,6 +645,8 @@ footer.home-footer a:link {
         /*margin: 1rem 4% 1rem 5%;*/
         vertical-align: baseline;
         position: relative;
+        Background–color: red;
+        font-size: 1.25rem;
     }
 
     label {
