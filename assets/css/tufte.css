@@ -634,13 +634,13 @@ footer.home-footer a:link {
         overflow: auto;
     }
     
-    .margin-toggle:checked + .margin-toggle,
-    .margin-toggle:checked + .margin-toggle {
+    .margin-toggle:checked ~ .margin-toggle,
+    .margin-toggle:checked ~ .margin-toggle {
         color: #bfbfbb;
     }
       
-    .margin-toggle:checked + .sidenote, 
-    .margin-toggle:checked + .marginnote {
+    .margin-toggle:checked ~ .sidenote, 
+    .margin-toggle:checked ~ .marginnote {
         display: block;
         float: left;
         left: 0; /* 1rem; */
