@@ -616,7 +616,7 @@ footer.home-footer a:link {
     label.margin-toggle:not(.sidenote-number) {
         display: inline-block;
         font-style: normal;
-        font-size: 1.45rem;
+        font-size: 1.45rem; /* need to use em to follow text size */
         line-height: 2rem;
     }
 
@@ -634,9 +634,9 @@ footer.home-footer a:link {
         overflow: auto;
     }
     
-    .margin-toggle:checked,
-    .margin-toggle:checked {
-        color:
+    .margin-toggle:checked + .margin-toggle,
+    .margin-toggle:checked + .margin-toggle {
+        color: #bfbfbb;
     }
       
     .margin-toggle:checked + .sidenote, 
