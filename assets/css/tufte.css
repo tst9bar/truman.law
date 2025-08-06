@@ -646,6 +646,7 @@ footer.home-footer a:link {
         vertical-align: baseline;
         position: relative;
         background–color: red;
+        color: red;
         font-size: 1.25rem;
         border: 1px solid red;
     }
