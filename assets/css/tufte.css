@@ -426,6 +426,16 @@ label.sidenote-number {
 
 label.margin-toggle:not(.sidenote-number) {
     display: none;
+    /*float: right; testing persistent toggle for desktop. not fully workable, contradictory to mobile logic, especially when orientation is turned
+    margin-right: -35%; /* 10 + 50/2 */
+}
+
+.margin-toggle:checked ~ .margin-toggle {
+    /*color: #bfbfbb; /* testing */
+}
+
+.margin-toggle:checked ~ .marginnote {
+    /*display: none; /* testing */
 }
 
 .iframe-wrapper {
