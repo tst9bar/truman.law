@@ -647,6 +647,7 @@ footer.home-footer a:link {
         position: relative;
         background–color: red;
         font-size: 1.25rem;
+        border: 1px solid red;
     }
 
     label {
