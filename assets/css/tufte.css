@@ -638,7 +638,8 @@ footer.home-footer a:link {
     .margin-toggle:checked + .marginnote {
         display: block;
         float: left;
-        left: 1rem;
+        /* left: 1rem; */
+        left: 5%;
         clear: both;
         width: 95%;
         margin: 1rem 2.5%;
