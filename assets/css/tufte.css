@@ -631,24 +631,26 @@ footer.home-footer a:link {
     
     p:has(span.sidenote),
     p:has(span.marginnote) {
-      overflow: auto;
+        overflow: auto;
     }
-
+    
+    .margin-toggle:checked,
+    .margin-toggle:checked {
+        color:
+    }
+      
     .margin-toggle:checked + .sidenote, 
     .margin-toggle:checked + .marginnote {
         display: block;
         float: left;
-        /* left: 1rem; */
-        left: 5%;
+        left: 0; /* 1rem; */
         clear: both;
-        width: 95%;
-        margin: 1rem 2.5%;
-        /*margin: 1rem 4% 1rem 5%;*/
+        width: 87.5%;
+        margin: 1.25rem 7% 1.25rem 5%; /* 1rem 4% 1rem 5%; */
         vertical-align: baseline;
         position: relative;
-        background–color: red;
-        font-size: 1.25rem;
-        border: 1px solid red;
+        font-size: 1.25rem; 
+        color: black;
     }
 
     label {
