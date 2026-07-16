@@ -616,7 +616,7 @@ footer.home-footer a:link {
 
     blockquote {
         margin-left: 1.5em;
-        margin-right: 0em;
+        margin-right: 1.5em; /* ori 0em, avoid long blockquote-no-p */
     }
 
     blockquote p,
@@ -642,7 +642,7 @@ footer.home-footer a:link {
     
     p:has(span.sidenote),
     p:has(span.marginnote) {
-        overflow: auto;
+        overflow: auto; /* need this to avoid 
     }
     
     .margin-toggle:checked ~ .margin-toggle,
