@@ -642,7 +642,7 @@ footer.home-footer a:link {
     
     p:has(span.sidenote),
     p:has(span.marginnote) {
-        overflow: auto; /* need this to avoid 
+        overflow: auto; /* need this to avoid home nav overlapping issue, but it makes p includes whole div */
     }
     
     .margin-toggle:checked ~ .margin-toggle,
